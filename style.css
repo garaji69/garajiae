@@ -253,3 +253,113 @@ footer{
   color:#e30000;
   margin-bottom:5px;
 }
+.stats{
+  display:flex;
+  gap:40px;
+  margin:35px 0;
+}
+
+.stat h3{
+  color:#e30000;
+  font-size:1.3rem;
+  margin-bottom:5px;
+}
+
+.stat p{
+  color:#666;
+  font-size:0.95rem;
+}
+
+.ai-section{
+  padding:120px 8%;
+  display:flex;
+  align-items:center;
+  justify-content:space-between;
+  gap:70px;
+}
+
+.ai-text{
+  flex:1;
+}
+
+.ai-text h2{
+  font-size:3rem;
+  margin-bottom:25px;
+}
+
+.ai-text p{
+  color:#555;
+  line-height:1.8;
+  margin-bottom:35px;
+  max-width:600px;
+}
+
+.ai-points{
+  display:flex;
+  flex-direction:column;
+  gap:20px;
+}
+
+.ai-point{
+  background:white;
+  padding:22px;
+  border-radius:18px;
+  box-shadow:0 10px 30px rgba(0,0,0,0.08);
+  font-weight:bold;
+  transition:0.3s;
+}
+
+.ai-point:hover{
+  transform:translateY(-5px);
+  box-shadow:0 20px 40px rgba(227,0,0,0.12);
+}
+
+.ai-image{
+  flex:1;
+  display:flex;
+  justify-content:center;
+}
+
+.ai-image img{
+  width:360px;
+  border-radius:35px;
+  box-shadow:0 20px 60px rgba(0,0,0,0.15);
+  transition:0.4s;
+}
+
+.ai-image img:hover{
+  transform:scale(1.03);
+}
+
+.download{
+  background:linear-gradient(135deg,#111,#1a1a1a);
+  color:white;
+  border-radius:40px;
+  margin:80px 8%;
+}
+
+.download p{
+  color:#ccc;
+}
+
+.download button{
+  margin-top:25px;
+}
+
+footer p{
+  margin:10px 0;
+}
+
+@media(max-width:900px){
+
+  .stats{
+    flex-direction:column;
+    gap:20px;
+  }
+
+  .ai-section{
+    flex-direction:column;
+    text-align:center;
+  }
+
+}
